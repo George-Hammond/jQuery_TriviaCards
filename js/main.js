@@ -17,13 +17,13 @@ $(document).ready(() =>{
   
   //Wrong answers show frown face
   $('.wrong-answer-one').on('click', () =>{
-    $('.frown').show()
+    $('.frown').show().delay(3000).fadeOut('slow');
   });
   $('.wrong-answer-two').on('click', () =>{
-    $('.frown').show()
+    $('.frown').show().delay(3000).fadeOut('slow');
   });
   $('.wrong-answer-three').on('click', () =>{
-    $('.frown').show();
+    $('.frown').show().delay(3000).fadeOut('slow');
   })
   
   //Correct Answer 
